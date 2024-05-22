@@ -41,12 +41,6 @@ public class UserDashboard extends javax.swing.JFrame {
         jPanel7 = new javax.swing.JPanel();
         desh = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
-        stulist = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        subj = new javax.swing.JPanel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
         uss = new javax.swing.JPanel();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
@@ -146,84 +140,6 @@ public class UserDashboard extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(102, 102, 102));
         jPanel1.setLayout(null);
 
-        stulist.setBackground(new java.awt.Color(0, 102, 102));
-        stulist.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
-        stulist.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                stulistMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                stulistMouseExited(evt);
-            }
-        });
-
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 20)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setText("Name");
-        jLabel5.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 2, 0, new java.awt.Color(0, 0, 0)));
-
-        javax.swing.GroupLayout stulistLayout = new javax.swing.GroupLayout(stulist);
-        stulist.setLayout(stulistLayout);
-        stulistLayout.setHorizontalGroup(
-            stulistLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(stulistLayout.createSequentialGroup()
-                .addGap(56, 56, 56)
-                .addComponent(jLabel2)
-                .addContainerGap(66, Short.MAX_VALUE))
-        );
-        stulistLayout.setVerticalGroup(
-            stulistLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, stulistLayout.createSequentialGroup()
-                .addComponent(jLabel5)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(21, 21, 21))
-        );
-
-        jPanel1.add(stulist);
-        stulist.setBounds(110, 100, 190, 161);
-
-        subj.setBackground(new java.awt.Color(0, 102, 102));
-        subj.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
-        subj.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                subjMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                subjMouseExited(evt);
-            }
-        });
-
-        jLabel12.setFont(new java.awt.Font("Arial", 0, 20)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel12.setText("Date&Time");
-        jLabel12.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 2, 0, new java.awt.Color(0, 0, 0)));
-
-        javax.swing.GroupLayout subjLayout = new javax.swing.GroupLayout(subj);
-        subj.setLayout(subjLayout);
-        subjLayout.setHorizontalGroup(
-            subjLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel12, javax.swing.GroupLayout.DEFAULT_SIZE, 186, Short.MAX_VALUE)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, subjLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel13)
-                .addGap(54, 54, 54))
-        );
-        subjLayout.setVerticalGroup(
-            subjLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(subjLayout.createSequentialGroup()
-                .addComponent(jLabel12)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 27, Short.MAX_VALUE))
-        );
-
-        jPanel1.add(subj);
-        subj.setBounds(350, 150, 190, 160);
-
         uss.setBackground(new java.awt.Color(0, 102, 102));
         uss.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
         uss.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -264,7 +180,7 @@ public class UserDashboard extends javax.swing.JFrame {
         );
 
         jPanel1.add(uss);
-        uss.setBounds(350, 350, 200, 160);
+        uss.setBounds(340, 180, 200, 160);
 
         gra.setBackground(new java.awt.Color(0, 102, 102));
         gra.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
@@ -302,7 +218,7 @@ public class UserDashboard extends javax.swing.JFrame {
         );
 
         jPanel1.add(gra);
-        gra.setBounds(110, 310, 200, 160);
+        gra.setBounds(80, 170, 200, 160);
 
         dash.setBackground(new java.awt.Color(153, 153, 153));
         dash.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
@@ -367,22 +283,6 @@ public class UserDashboard extends javax.swing.JFrame {
          }
          acc_user.setText(""+sess.getFname());
     }//GEN-LAST:event_formWindowActivated
-
-    private void stulistMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_stulistMouseEntered
-        stulist.setBackground(navcolor);
-    }//GEN-LAST:event_stulistMouseEntered
-
-    private void stulistMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_stulistMouseExited
-        stulist.setBackground(hovercolor);
-    }//GEN-LAST:event_stulistMouseExited
-
-    private void subjMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_subjMouseEntered
-        subj .setBackground(navcolor);
-    }//GEN-LAST:event_subjMouseEntered
-
-    private void subjMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_subjMouseExited
-        subj .setBackground(hovercolor);
-    }//GEN-LAST:event_subjMouseExited
 
     private void ussMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ussMouseExited
         uss .setBackground(hovercolor);
@@ -450,20 +350,14 @@ public class UserDashboard extends javax.swing.JFrame {
     private javax.swing.JPanel desh;
     private javax.swing.JPanel gra;
     private javax.swing.JPanel j;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel stulist;
-    private javax.swing.JPanel subj;
     private javax.swing.JPanel uss;
     // End of variables declaration//GEN-END:variables
 }
