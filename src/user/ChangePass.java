@@ -184,7 +184,7 @@ public class ChangePass extends javax.swing.JFrame {
         jLabel11.setFont(new java.awt.Font("Arial", 3, 36)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel11.setText("TENNIS MEMBERSHIP");
+        jLabel11.setText("COURT MEMBERSHIP");
         jLabel11.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         jLabel11.setOpaque(true);
 
